@@ -24,4 +24,4 @@ const httpConfig = () => ({
 
 export const HTTPSTATUS = httpConfig();
 
-export type HttpStatusCode = (typeof HTTPSTATUS)[keyof typeof HTTPSTATUS]
+export type HttpStatusCodeType = (typeof HTTPSTATUS)[keyof typeof HTTPSTATUS];
